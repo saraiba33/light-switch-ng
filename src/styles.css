@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+body {
+    background-color: hsl(233, 27%, 6%);
+    color: white;
+}
+
+header {
+    font-family: 'Smooch', cursive;
+    text-align: center;
+    font-size: 64px;
+    color: hsl(41, 99%, 70%);
+    background-color: hsl(146, 4%, 37%);
+    padding: 26px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+    row-gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    padding: 30px;
+    background-color: hsl(37, 16%, 78%);
+}

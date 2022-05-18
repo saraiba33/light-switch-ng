@@ -1,0 +1,12 @@
+<div>
+    <header>
+        <h1>Lightbulb Company</h1>
+    </header>
+    <main>
+        <app-nightlight *ngIf="isOn; else off"></app-nightlight>
+        <ng-template #off>
+            <app-light></app-light>
+        </ng-template>
+        <app-switch (buttonClick)="turnOffAndOn()"></app-switch>
+    </main>
+</div>
