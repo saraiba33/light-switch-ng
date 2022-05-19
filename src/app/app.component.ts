@@ -10,10 +10,6 @@ export class AppComponent {
   isOn = true;
 
   turnOffAndOn() {
-    if (this.isOn === true) {
-      return (this.isOn = false);
-    } else {
-      return (this.isOn = true);
-    }
+    this.isOn = !this.isOn;
   }
 }
