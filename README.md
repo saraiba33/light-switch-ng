@@ -1,6 +1,6 @@
 # Light Switch (Angular Edition)
 
-!()[https://silly-llama-298eff.netlify.app/]
+Here is the link for the deployed [site](https://silly-llama-298eff.netlify.app/)
 
 Create an Angular app that has the following:
 
